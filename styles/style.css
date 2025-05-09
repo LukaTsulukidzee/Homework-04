@@ -126,22 +126,45 @@ table {
 /* ! Code Start */
 
 body {
-  margin: 0 auto;
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.main-content {
+.home-footer {
+  background-color: lightpink;
+}
+
+.home-footer .footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
   max-width: 1440px;
   height: 500px;
-  background-color: aqua;
+  width: 100%;
+  background-color: lightblue;
+}
+
+/*  top */
+
+.footer-logo {
+  padding: 73px 1132px 313px 140px;
+  width: 168px;
+  height: 114px;
+}
+
+.footer-section-links {
   display: flex;
 }
 
-.text-wrap {
-  width: 168px;
-  height: 114px;
-  padding: 73px 1132px 313px 140px;
-}
+/* bottom */
 
-.copy-right p {
+.bottom-footer {
   padding: 440px 1144px 37px 140px;
+  width: 156px;
+  height: 23px;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 1%;
+  color: red;
 }
